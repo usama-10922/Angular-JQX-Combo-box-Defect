@@ -1,0 +1,11 @@
+<jqxComboBox
+  #myComboBox
+  [width]="'100%'" [height]="'32px'"
+  [showArrow]="false"
+  [placeHolder]="'Enter Country Name'"
+  [minLength]="1"  [multiSelect]="true" [itemHeight]="45" [remoteAutoComplete]="true"
+  [searchMode]="'containsignorecase'"
+  [renderer]="renderer"
+  [valueMember]="'country'" [displayMember]="'country'"
+  (onChange)="onChange($event)" (onClose)="onCloseAutocomplete($event)">
+</jqxComboBox>

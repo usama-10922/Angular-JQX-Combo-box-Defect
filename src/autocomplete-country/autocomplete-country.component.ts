@@ -1,6 +1,6 @@
 import { ConfigService } from './../ConfigService';
 import { Subscription } from 'rxjs';
-import { jqxComboBoxComponent } from 'jqwidgets-ng/jqxcombobox/public_api';
+// import { jqxComboBoxComponent } from 'jqwidgets-ng/jqxcombobox/public_api';
 import { AfterViewInit, ViewChild, ViewEncapsulation, ChangeDetectionStrategy } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 
